@@ -1,16 +1,36 @@
-import { motion } from "motion/react";
+import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import { motion as Motion } from "framer-motion";
 import './index.css';
 
 function App() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-      className="text-3xl font-bold text-blue-600 underline"
-    >
-      Hello Tailwind with animation!
-    </motion.div>
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center text-center px-4">
+      <Motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="space-y-4"
+      >
+        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800">
+          Hi, I'm Ivan Koe 👋
+        </h1>
+        <p className="text-lg md:text-xl text-gray-600 max-w-xl">
+          A Front-End Developer passionate about creating beautiful, responsive, and accessible web experiences.
+        </p>
+
+        <div className="flex gap-6 justify-center pt-4">
+          <a href="https://github.com/Ivankoe96" target="_blank" rel="noopener noreferrer">
+            <GithubIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          </a>
+          <a href="https://linkedin.com/in/ivankoe" target="_blank" rel="noopener noreferrer">
+            <LinkedinIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          </a>
+          <a href="mailto:ivandharmakoe@gmail.com">
+            <MailIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          </a>
+        </div>
+      </Motion.div>
+    </div>
   );
 }
 
