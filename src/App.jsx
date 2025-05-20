@@ -1,7 +1,7 @@
 import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
 import { motion as Motion } from "framer-motion";
 import './index.css';
-import { Analytics } from '@vercel/analytics/react';
+
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           </a>
         </div>
       </Motion.div>
-      <Analytics />
+      
       <SpeedInsights />
     </div>
   );
