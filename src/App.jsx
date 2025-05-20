@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
