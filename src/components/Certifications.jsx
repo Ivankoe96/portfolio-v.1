@@ -8,11 +8,12 @@ const Certifications = () => {
       <div className="max-w-2xl mx-auto">
         <ul className="space-y-6">
           {certificationsData.map((certification) => (
-            <li 
-              key={certification.name} 
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-start sm:flex-row sm:items-center justify-between"
+            <li
+              key={certification.name}
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row justify-between items-center"
             >
-              <div>
+              {/* Added 'text-left' class here */}
+              <div className="text-left">
                 <h3 className="text-xl font-semibold text-blue-600 mb-2 sm:mb-0">{certification.name}</h3>
                 {certification.issuer && (
                   <p className="text-sm text-gray-600">Issuer: {certification.issuer}</p>
