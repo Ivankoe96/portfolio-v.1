@@ -64,10 +64,10 @@ Make sure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Ivankoe96/](https://github.com/Ivankoe96/)[Your-Repo-Name].git
-    cd [Your-Repo-Name]
+    git clone [https://github.com/Ivankoe96/](https://github.com/Ivankoe96/)[YOUR_REPO_NAME].git
+    cd [YOUR_REPO_NAME]
     ```
-    (Replace `[Your-Repo-Name]` with the actual name of your GitHub repository)
+    (Replace `[YOUR_REPO_NAME]` with the actual name of your GitHub repository, e.g., `portfolio-v-1`)
 
 2.  **Install dependencies:**
     ```bash
