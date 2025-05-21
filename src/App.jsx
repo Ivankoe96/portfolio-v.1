@@ -68,6 +68,7 @@ function App() {
         {currentView === 'projects' && <Projects />}
         {currentView === 'certifications' && <Certifications />}
       </div>
+
       
       <SpeedInsights />
     </div>
