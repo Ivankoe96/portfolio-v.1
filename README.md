@@ -38,7 +38,6 @@ Explore the live version of my portfolio here:
 * **Interactive UI:** Smooth transitions and animations powered by Framer Motion.
 * **Project Showcase:** Detailed cards for each project, including descriptions, technologies used, and links to live demos and GitHub repositories.
 * **Certifications Display:** Organized list of completed certifications with links to verify them.
-* **[Add any other specific features you're proud of, e.g., "Contact Form," "Blog integration," "Dark Mode Toggle"]**
 
 ## Technologies Used
 
@@ -49,7 +48,6 @@ This project is built using the following key technologies:
 * **Framer Motion:** A production-ready motion library for React.
 * **Lucide React:** A beautiful and consistent icon library.
 * **Vercel Speed Insights:** For performance monitoring.
-* **[Add any other libraries/frameworks/tools you used, e.g., "Vite" for bundling, "ESLint" for linting, "Prettier" for formatting]**
 
 ## Setup and Installation
 
