@@ -10,7 +10,7 @@ const Certifications = () => {
           {certificationsData.map((certification) => (
             <li 
               key={certification.name} 
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col sm:flex-row justify-between items-center"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-start sm:flex-row sm:items-center justify-between"
             >
               <div>
                 <h3 className="text-xl font-semibold text-blue-600 mb-2 sm:mb-0">{certification.name}</h3>
