@@ -64,11 +64,10 @@ Make sure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Ivankoe96/](https://github.com/Ivankoe96/)[Your-Repo-Name].git
-    cd [Your-Repo-Name]
+    git clone https://github.com/Ivankoe96/portofolio-v.1.git
+    cd portofolio-v.1
     ```
-    (Replace `[Your-Repo-Name]` with the actual name of your GitHub repository)
-
+    
 2.  **Install dependencies:**
     ```bash
     npm install
