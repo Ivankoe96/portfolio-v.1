@@ -62,6 +62,15 @@ function App() {
                 <MailIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
               </a>
             </div>
+            <div className="pt-6"> 
+              <a
+                href="/Ivan_Koe_Resume.pdf" 
+                download="Ivan_Koe_Resume.pdf"
+                className="inline-block px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+              >
+                Download CV
+              </a>
+            </div>
           </Motion.div>
         )}
         
