@@ -29,7 +29,7 @@ The site is built with modern web technologies, focusing on responsiveness, acce
 
 Explore the live version of my portfolio here:
 
-➡️ **[portofolio-v-1.vercel.app](https://portofolio-v-1.vercel.app/)**
+➡️ **[portfolio-ivan-koe.vercel.app](https://portfolio-ivan-koe.vercel.app/)**
 
 ## Features
 
@@ -38,16 +38,25 @@ Explore the live version of my portfolio here:
 * **Interactive UI:** Smooth transitions and animations powered by Framer Motion.
 * **Project Showcase:** Detailed cards for each project, including descriptions, technologies used, and links to live demos and GitHub repositories.
 * **Certifications Display:** Organized list of completed certifications with links to verify them.
+* **CV Download:** Provides a convenient button in the "About Me" section for direct resume download.
 
 ## Technologies Used
 
 This project is built using the following key technologies:
 
-* **React:** A JavaScript library for building user interfaces.
-* **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
-* **Framer Motion:** A production-ready motion library for React.
-* **Lucide React:** A beautiful and consistent icon library.
-* **Vercel Speed Insights:** For performance monitoring.
+* **Frontend:**
+    * React (with Vite)
+    * Tailwind CSS
+    * Framer Motion: A production-ready motion library for React.
+    * Lucide React: A beautiful and consistent icon library.
+* **Development & Quality:**
+    * ESLint: For static code analysis and maintaining code quality.
+    * Vitest: A fast and modern unit testing framework.
+* **Monitoring:**
+    * Vercel Speed Insights: For performance monitoring.
+    * Vercel Analytics: For site usage and traffic insights.
+* **Build Tool:**
+    * Vite
 
 ## Setup and Installation
 
@@ -64,8 +73,8 @@ Make sure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Ivankoe96/portofolio-v.1.git
-    cd portofolio-v.1
+    git clone https://github.com/Ivankoe96/portfolio-v.1.git
+    cd portfolio-v.1
     ```
     
 2.  **Install dependencies:**
@@ -86,12 +95,13 @@ Make sure you have the following installed:
 
 ## Usage
 
-Once deployed or running locally, you can:
+Once deployed or running locally:
 
-* Click on the navigation buttons ("About Me", "Projects", "Certifications") to switch between sections.
-* Explore project cards, clicking "Live Demo" to visit the deployed project or "GitHub" to view its source code.
-* Click "View Certificate" on certification cards to verify the credentials.
-* Use the social icons in the "About Me" section to connect with me.
+* Navigate through sections using the header links ("About Me," "Projects," "Certifications").
+* Click on individual project cards to access their live demos or GitHub repositories.
+* Verify certifications by clicking on the "View Certificate" links.
+* Download my resume directly from the "About Me" section.
+* Connect with me via the social media icons provided.
 
 ## Deployment
 
@@ -112,6 +122,7 @@ Feel free to connect with me through the following channels:
 * **GitHub:** [github.com/Ivankoe96](https://github.com/Ivankoe96)
 * **LinkedIn:** [linkedin.com/in/ivankoe](https://linkedin.com/in/ivankoe)
 * **Email:** [ivandharmakoe@gmail.com](mailto:ivandharmakoe@gmail.com)
+* **Portfolio:** [portfolio-ivan-koe.vercel.app](https://portfolio-ivan-koe.vercel.app/)
 
 ---
 
