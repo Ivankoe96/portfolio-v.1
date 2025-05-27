@@ -1,20 +1,19 @@
-// src/components/About.jsx
 import React from "react";
-import { motion } from "framer-motion"; // Make sure you import motion if used
-import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react"; // Import your icons
+import { motion as Motion } from "framer-motion";
+import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
 
 function About() {
   return (
-    <motion.div
+    <Motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="space-y-4"
+      className="space-y-4 bg-card-bg p-8 md:p-12 rounded-lg shadow-xl dark:bg-dark-mode-card"
     >
-      <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800">
+      <h1 className="text-4xl md:text-6xl font-extrabold text-dark-text dark:text-dark-mode-text-light">
         Hi, I'm Ivan Koe 👋
       </h1>
-      <p className="text-lg md:text-xl text-gray-600 max-w-xl mx-auto">
+      <p className="text-lg md:text-xl text-medium-text max-w-xl mx-auto dark:text-dark-mode-text-medium">
         A Front-End Developer passionate about creating beautiful, responsive,
         and accessible web experiences.
       </p>
@@ -26,7 +25,7 @@ function About() {
           rel="noopener noreferrer"
           aria-label="Ivan Koe's GitHub profile (opens in a new tab)"
         >
-          <GithubIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          <GithubIcon className="w-6 h-6 text-dark-text hover:text-pastel-blue transition-colors dark:text-dark-mode-text-light dark:hover:text-dark-mode-primary" />
         </a>
         <a
           href="https://linkedin.com/in/ivankoe"
@@ -34,10 +33,10 @@ function About() {
           rel="noopener noreferrer"
           aria-label="Ivan Koe's LinkedIn profile (opens in a new tab)"
         >
-          <LinkedinIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          <LinkedinIcon className="w-6 h-6 text-dark-text hover:text-pastel-blue transition-colors dark:text-dark-mode-text-light dark:hover:text-dark-mode-primary" />
         </a>
         <a href="mailto:ivandharmakoe@gmail.com" aria-label="Email Ivan Koe">
-          <MailIcon className="w-6 h-6 text-gray-800 hover:text-blue-600 transition-colors" />
+          <MailIcon className="w-6 h-6 text-dark-text hover:text-pastel-blue transition-colors dark:text-dark-mode-text-light dark:hover:text-dark-mode-primary" />
         </a>
       </div>
 
@@ -45,12 +44,12 @@ function About() {
         <a
           href="/Ivan_Koe_Resume.pdf"
           download="Ivan_Koe_Resume.pdf"
-          className="inline-block px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+          className="inline-block px-8 py-3 bg-pastel-blue text-dark-text text-lg font-semibold rounded-lg shadow-md hover:bg-pastel-peach transition-colors duration-300 dark:bg-dark-mode-primary dark:text-dark-mode-bg dark:hover:bg-dark-mode-accent"
         >
           Download CV
         </a>
       </div>
-    </motion.div>
+    </Motion.div>
   );
 }
 
