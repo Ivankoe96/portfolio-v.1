@@ -1,10 +1,12 @@
-import React from 'react';
-import { certificationsData } from '../data.js';
+import React from "react";
+import { certificationsData } from "../data.js";
 
 const Certifications = () => {
   return (
     <section className="py-12 px-4">
-      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">My Certifications</h2>
+      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
+        My Certifications
+      </h2>
       <div className="max-w-2xl mx-auto">
         <ul className="space-y-6">
           {certificationsData.map((certification) => (
@@ -14,9 +16,13 @@ const Certifications = () => {
             >
               {/* Added 'text-left' class here */}
               <div className="text-left">
-                <h3 className="text-xl font-semibold text-blue-600 mb-2 sm:mb-0">{certification.name}</h3>
+                <h3 className="text-xl font-semibold text-blue-600 mb-2 sm:mb-0">
+                  {certification.name}
+                </h3>
                 {certification.issuer && (
-                  <p className="text-sm text-gray-600">Issuer: {certification.issuer}</p>
+                  <p className="text-sm text-gray-600">
+                    Issuer: {certification.issuer}
+                  </p>
                 )}
               </div>
               <a
