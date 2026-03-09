@@ -42,22 +42,22 @@ export const projectsData = [
 export const certificationsData = [
   {
     name: "Responsive Web Design",
-    url: "https://www.freecodecamp.org/certification/Ivankoe/responsive-web-design",
+    url: "https://www.freecodecamp.org/certification/ivankoe/responsive-web-design",
     issuer: "freeCodeCamp",
   },
   {
     name: "JavaScript Algorithms and Data Structures",
-    url: "https://www.freecodecamp.org/certification/Ivankoe/javascript-algorithms-and-data-structures-v8",
+    url: "https://www.freecodecamp.org/certification/ivankoe/javascript-algorithms-and-data-structures-v8",
     issuer: "freeCodeCamp",
   },
   {
     name: "Front End Development Libraries",
-    url: "https://www.freecodecamp.org/certification/Ivankoe/front-end-development-libraries",
+    url: "https://www.freecodecamp.org/certification/ivankoe/front-end-development-libraries",
     issuer: "freeCodeCamp",
   },
   {
     name: "Data Visualization",
-    url: "https://www.freecodecamp.org/certification/Ivankoe/data-visualization",
+    url: "https://www.freecodecamp.org/certification/ivankoe/data-visualization",
     issuer: "freeCodeCamp",
   },
 ];
