@@ -36,6 +36,7 @@ const Projects = () => {
                 href={project.repo_url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`GitHub Repo for ${project.name}`}
                 className="text-pastel-blue hover:text-pastel-peach font-medium transition-colors duration-300 dark:text-dark-mode-primary dark:hover:text-dark-mode-accent"
               >
                 GitHub Repo
@@ -47,6 +48,7 @@ const Projects = () => {
                     href={project.live_url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Live Demo for ${project.name}`}
                     className="text-pastel-green hover:text-pastel-peach font-medium transition-colors duration-300 dark:text-dark-mode-success dark:hover:text-dark-mode-accent"
                   >
                     Live Demo
