@@ -41,23 +41,33 @@ export const projectsData = [
 
 export const certificationsData = [
   {
-    name: "Responsive Web Design",
+    name: "Responsive Web Design V8",
     url: "https://www.freecodecamp.org/certification/ivankoe/responsive-web-design",
     issuer: "freeCodeCamp",
   },
   {
-    name: "JavaScript Algorithms and Data Structures",
+    name: "JavaScript Algorithms and Data Structures V8",
     url: "https://www.freecodecamp.org/certification/ivankoe/javascript-algorithms-and-data-structures-v8",
     issuer: "freeCodeCamp",
   },
   {
-    name: "Front End Development Libraries",
+    name: "Front End Development Libraries V8",
     url: "https://www.freecodecamp.org/certification/ivankoe/front-end-development-libraries",
     issuer: "freeCodeCamp",
   },
   {
-    name: "Data Visualization",
+    name: "Data Visualization V8",
     url: "https://www.freecodecamp.org/certification/ivankoe/data-visualization",
+    issuer: "freeCodeCamp",
+  },
+  {
+    name: "Relational Database V8",
+    url: "https://www.freecodecamp.org/certification/ivankoe/relational-database-v8",
+    issuer: "freeCodeCamp",
+  },
+  {
+    name: "Back-End Development and APIs V8",
+    url: "https://www.freecodecamp.org/certification/ivankoe/back-end-development-and-apis",
     issuer: "freeCodeCamp",
   },
 ];
