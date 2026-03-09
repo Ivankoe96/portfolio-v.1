@@ -21,42 +21,27 @@ function App() {
         <ThemeSwitcher />
 
         <nav className="mb-10">
-          <button
-            onClick={() => setCurrentView("about")}
-            className={`px-4 py-2 mx-2 rounded-md text-lg font-medium transition-all duration-200 ease-in-out
-                        ${
-                          currentView === "about"
-                            ? "bg-pastel-blue text-dark-text shadow-lg dark:bg-dark-mode-primary dark:text-dark-mode-bg" // Dark mode active button
-                            : "bg-gray-200 text-medium-text hover:bg-gray-300 hover:scale-105 hover:shadow-md dark:bg-gray-700 dark:text-dark-mode-text-medium dark:hover:bg-gray-600" // Dark mode inactive button
-                        }`}
-          >
-            About Me
-          </button>
-          <button
-            onClick={() => setCurrentView("projects")}
-            className={`px-4 py-2 mx-2 rounded-md text-lg font-medium transition-all duration-200 ease-in-out
-                        ${
-                          currentView === "projects"
-                            ? "bg-pastel-blue text-dark-text shadow-lg dark:bg-dark-mode-primary dark:text-dark-mode-bg"
-                            : "bg-gray-200 text-medium-text hover:bg-gray-300 hover:scale-105 hover:shadow-md dark:bg-gray-700 dark:text-dark-mode-text-medium dark:hover:bg-gray-600"
-                        }`}
-          >
-            Projects
-          </button>
-          <button
-            onClick={() => setCurrentView("certifications")}
-            className={`px-4 py-2 mx-2 rounded-md text-lg font-medium transition-all duration-200 ease-in-out
-                        ${
-                          currentView === "certifications"
-                            ? "bg-pastel-blue text-dark-text shadow-lg dark:bg-dark-mode-primary dark:text-dark-mode-bg"
-                            : "bg-gray-200 text-medium-text hover:bg-gray-300 hover:scale-105 hover:shadow-md dark:bg-gray-700 dark:text-dark-mode-text-medium dark:hover:bg-gray-600"
-                        }`}
-          >
-            Certifications
-          </button>
+          {[
+            { id: "about", label: "About Me" },
+            { id: "projects", label: "Projects" },
+            { id: "certifications", label: "Certifications" },
+          ].map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setCurrentView(tab.id)}
+              className={`px-4 py-2 mx-2 rounded-md text-lg font-medium transition-all duration-200 ease-in-out
+                          ${
+                            currentView === tab.id
+                              ? "bg-pastel-blue text-dark-text shadow-lg dark:bg-dark-mode-primary dark:text-dark-mode-bg"
+                              : "bg-gray-200 text-medium-text hover:bg-gray-300 hover:scale-105 hover:shadow-md dark:bg-gray-700 dark:text-dark-mode-text-medium dark:hover:bg-gray-600"
+                          }`}
+            >
+              {tab.label}
+            </button>
+          ))}
         </nav>
 
-        <div className="w-full max-w-5xl">
+        <main className="w-full max-w-5xl">
           <AnimatePresence mode="wait">
             {currentView === "about" && (
               <Motion.div
@@ -94,7 +79,7 @@ function App() {
               </Motion.div>
             )}
           </AnimatePresence>
-        </div>
+        </main>
 
         <SpeedInsights />
       </div>

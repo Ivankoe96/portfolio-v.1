@@ -34,6 +34,7 @@ const Certifications = () => {
                 href={certification.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`View Certificate for ${certification.name}`}
                 className="mt-3 sm:mt-0 px-4 py-2 bg-pastel-green text-dark-text rounded-md hover:bg-pastel-peach transition-colors duration-300 text-sm font-medium dark:bg-dark-mode-success dark:text-dark-mode-bg dark:hover:bg-dark-mode-accent"
               >
                 View Certificate
