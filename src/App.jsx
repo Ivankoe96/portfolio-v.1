@@ -8,7 +8,7 @@ import Certifications from "./components/Certifications";
 import { motion as Motion, AnimatePresence } from "framer-motion";
 
 // Import the ThemeProvider
-import { ThemeProvider } from "./context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeProvider";
 // Import the ThemeSwitcher component
 import ThemeSwitcher from "./components/ThemeSwitcher";
 
